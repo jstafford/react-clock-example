@@ -1,4 +1,11 @@
 {
-  "main.js": "static/js/main.fb91d7a6.js",
-  "main.js.map": "static/js/main.fb91d7a6.js.map"
+  "main.css": "static/css/main.65027555.css",
+  "main.css.map": "static/css/main.65027555.css.map",
+  "main.js": "static/js/main.a268e363.js",
+  "main.js.map": "static/js/main.a268e363.js.map",
+  "static/media/clock-face.svg": "static/media/clock-face.e587248f.svg",
+  "static/media/hand-hour.svg": "static/media/hand-hour.a13c5934.svg",
+  "static/media/hand-minute.svg": "static/media/hand-minute.c3811d2e.svg",
+  "static/media/hand-second.svg": "static/media/hand-second.f807cf45.svg",
+  "static/media/spacer.svg": "static/media/spacer.4e8d8ee9.svg"
 }
