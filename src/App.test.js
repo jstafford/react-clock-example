@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import Clock from './Clock'
+import App from './App'
 
 it('renders without crashing', () => {
   const div = document.createElement('div')
-  ReactDOM.render(<Clock />, div)
+  ReactDOM.render(<App />, div)
 })

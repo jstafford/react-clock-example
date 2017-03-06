@@ -1,28 +1,14 @@
-import React, { Component } from 'react'
+import React, { Component, PropTypes } from 'react'
 
 class Clock extends Component {
-  constructor(props) {
-    super(props)
-    this.state = { date: new Date() }
-  }
-
-  componentDidMount() {
-    this.timeID = setInterval(
-        () => this.tick(), 1000
-    )
-  }
-
-  componentWillUnmount() {
-      clearInterval(this.timerID)
-  }
-
-  tick() {
-    this.setState( { date: new Date() } )
+  static propTypes = {
+    date: PropTypes.instanceOf(Date)
   }
 
   render() {
+    const { date } = this.props
     return (
-        <p>{this.state.date.toLocaleTimeString()}</p>
+        <p>{date.toLocaleTimeString()}</p>
     )
   }
 }
